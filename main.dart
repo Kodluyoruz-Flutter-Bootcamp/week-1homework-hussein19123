@@ -26,8 +26,8 @@ class _CalculatorState extends State<Calculator> {
         OnPressed: () {
           calculation(btntxt);
         },
-        child: Text(
-          '$btntxt',
+        child: Text(text,
+         
           style: TextStyle(
             fontSize: 35,
             color: txtcolor,
